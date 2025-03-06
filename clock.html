@@ -1,0 +1,15 @@
+<html>
+<head>
+    <title>Date & Time</title>
+</head>
+<body style="text-align:center; font-family:Arial;">
+    <h1>Current Date & Time</h1>
+    <button onclick="showDateTime()">Click</button>
+    <p id="dateTime"></p>
+    <script>
+        function showDateTime() {
+            document.getElementById('dateTime').innerText = new Date().toLocaleString();
+        }
+    </script>
+</body>
+</html>
